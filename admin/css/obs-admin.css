@@ -1,0 +1,88 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+.wp-admin #wpcontent .obs-collapsible {
+    display: none;
+}
+
+#obschangeapikey {
+    margin-top: 5px;
+}
+ 
+ .obs-invoice-tab {
+     padding-right: 20px;
+ }
+
+.obs-invoice-tab table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.obs-invoice-tab td.obs-tab, th.obs-tab {
+    vertical-align: middle;
+    text-align: left;
+    padding: 1.2em;
+}
+  
+.obs-invoice-tab tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.api-key-text {
+    word-wrap: break-word;
+}
+
+#api_key {
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 782px) {
+    #api_key {
+        width: 100%;
+    }   
+}
+
+.obs-invoice-special-button {
+    margin: 2px 0 2px 4px;
+    text-indent: 9999px;
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    /* margin: 0; */
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 5.5px
+}
+
+.obs-custom-error {
+    color: #cc0000;
+}
+
+.obs-default-form {
+    display: none;
+}
+
+.obs-stripe-form {
+    display: none;
+}
+
+.obs-image-logo {
+    display: block;
+    margin: 20px 0;
+    min-height: 60px;
+}
